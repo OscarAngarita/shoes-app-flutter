@@ -1,23 +1,29 @@
 import 'package:flutter/material.dart';
 
-class BotonCarrito extends StatelessWidget {
+class BotonGeneral extends StatelessWidget {
 
   final String texto;
+  final double? alto;
+  final double? ancho;
+  final Color? color;
 
 
-  const BotonCarrito({
-    required this.texto 
+  const BotonGeneral({
+    required this.texto, 
+    this.alto = 50, 
+    this.ancho = 150, 
+    this.color = Colors.orange
   });
 
   @override
   Widget build(BuildContext context) {
     return Container(
       alignment: Alignment.center,
-      width: 150,
-      height: 50,
+      width: this.ancho,
+      height: this.alto,
       
       decoration: BoxDecoration(
-        color: Colors.orange,
+        color: this.color,
         borderRadius: BorderRadius.circular(100)
       ),
       child: Text('$texto', style: TextStyle(color: Colors.white)),

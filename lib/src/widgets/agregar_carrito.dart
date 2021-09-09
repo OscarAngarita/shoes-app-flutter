@@ -23,7 +23,7 @@ class AgregarCarritoBoton extends StatelessWidget {
             SizedBox(width: 20,),
             Text('\$$monto', style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold)),
             Spacer(),
-            BotonCarrito(texto: 'Add to cart'),
+            BotonGeneral(texto: 'Add to cart'),
             SizedBox(width: 20)
           ],
         ),
