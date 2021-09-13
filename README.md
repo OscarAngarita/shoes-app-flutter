@@ -1,16 +1,24 @@
-# shoes_app
+# Shoes Showcase App - Flutter
 
-A new Flutter project.
+## Description
+<img src="assets/shoes01.gif" width="250"/> <img src="assets/shoes02.gif" width="250"/>
+
+The purpose of this application is to design an app able to visualize shoes with the intention of buying them, you can edit the size and color before choosing.
+It is based on flat design to display only important information while maintaining style. 
+
+## Technical info
+This app was created with Flutter v2.2.3 and Dart. Includes null-safety!
+
+Packages:
+- cupertino_icons: ^1.0.2
+- animate_do: ^2.0.0
+- provider: ^6.0.0
+
+
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
+For help getting started with Flutter, view
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
