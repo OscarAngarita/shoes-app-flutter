@@ -3,8 +3,8 @@
 ## Description
 <img src="assets/shoes01.gif" width="250"/> <img src="assets/shoes02.gif" width="250"/>
 
-The purpose of this application is to design an app able to visualize shoes with the intention of buying them, you can edit the size and color before choosing.
-It is based on flat design to display only important information while maintaining style. 
+The purpose of this project is to create an app able to visualize shoes and its different designs, you can edit the size and color.
+It is based on flat design to display only important information while maintaining style. Part of a Flutter course taught by Fernando Herrera at Udemy.
 
 ## Technical info
 This app was created with Flutter v2.2.3 and Dart. Includes null-safety!
